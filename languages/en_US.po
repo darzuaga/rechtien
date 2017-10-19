@@ -1,0 +1,1636 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cardealer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-10-11 11:46+0530\n"
+"PO-Revision-Date: 2017-10-11 11:47+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/acf\n"
+"X-Poedit-SearchPathExcluded-1: includes/redux-framework\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+
+#: 404.php:23
+msgid "404! Page Not Found!"
+msgstr ""
+
+#: 404.php:59
+msgid "Ooopps..."
+msgstr ""
+
+#: 404.php:60
+msgid "The Page you were looking for, couldn't be found."
+msgstr ""
+
+#: 404.php:61
+#, php-format
+msgid ""
+"Can't find what you looking for? Take a moment and do a search below or "
+"start from our <a class='link' href='%s'>Home Page</a>"
+msgstr ""
+
+#: 404.php:124 404.php:128 404.php:132
+msgid "404"
+msgstr ""
+
+#: 404.php:153 includes/cars_functions.php:1039 includes/init.php:72
+#: search.php:46 template-parts/header/menu-elements/search-mobile.php:4
+#: template-parts/header/menu-elements/search.php:4
+msgid "Search..."
+msgstr ""
+
+#: 404.php:153 includes/init.php:71 search.php:46
+msgid "Search for:"
+msgstr ""
+
+#: 404.php:156 search.php:47 template-parts/content-intro.php:158
+#: template-parts/header/header_type/logo-center.php:158
+msgid "Search"
+msgstr ""
+
+#: archive-cars.php:20
+msgid "Filter"
+msgstr ""
+
+#: comments.php:11
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:39
+#, php-format
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:80
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:88 includes/cars_functions.php:1021
+#: template-parts/cars/single-car/forms/email_to_friend.php:29
+msgid "Name"
+msgstr ""
+
+#: comments.php:89 template-parts/cars/single-car/forms/email_to_friend.php:33
+#: template-parts/cars/single-car/forms/make_an_offer.php:37
+#: template-parts/cars/single-car/forms/request_info.php:39
+#: template-parts/cars/single-car/forms/request_info.php:46
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:40
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:62
+msgid "Email"
+msgstr ""
+
+#: comments.php:90
+msgid "Website"
+msgstr ""
+
+#: comments.php:91 template-parts/cars/single-car/forms/make_an_offer.php:45
+msgid "Comment"
+msgstr ""
+
+#: includes/base_functions.php:20
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"$1\" target=\"_blank"
+"\">TeamWP @Potenza Global Solutions</a></span>."
+msgstr ""
+
+#: includes/base_functions.php:231
+msgid "Read"
+msgstr ""
+
+#: includes/base_functions.php:231
+msgid "Read more &raquo;"
+msgstr ""
+
+#: includes/base_functions.php:360
+msgid "Promocode"
+msgstr ""
+
+#: includes/base_functions.php:362 includes/init.php:73
+msgid "Go"
+msgstr ""
+
+#: includes/base_functions.php:401
+msgid "My Account"
+msgstr ""
+
+#: includes/base_functions.php:403
+msgid "Login"
+msgstr ""
+
+#: includes/base_functions.php:413
+msgid "Facebook"
+msgstr ""
+
+#: includes/base_functions.php:418
+msgid "Twitter"
+msgstr ""
+
+#: includes/base_functions.php:423
+msgid "Dribbble"
+msgstr ""
+
+#: includes/base_functions.php:428
+msgid "Vimeo"
+msgstr ""
+
+#: includes/base_functions.php:433
+msgid "Pinterest"
+msgstr ""
+
+#: includes/base_functions.php:438
+msgid "Behance"
+msgstr ""
+
+#: includes/base_functions.php:443
+msgid "Linkedin"
+msgstr ""
+
+#: includes/base_functions.php:448
+msgid "Instagram"
+msgstr ""
+
+#: includes/base_functions.php:702
+msgid "Notify Me"
+msgstr ""
+
+#: includes/cars_functions.php:343
+msgid "SOLD"
+msgstr ""
+
+#: includes/cars_functions.php:447
+msgid "Price Range"
+msgstr ""
+
+#: includes/cars_functions.php:482
+msgid "Year Range"
+msgstr ""
+
+#: includes/cars_functions.php:1020 includes/cars_functions.php:1021
+#: includes/cars_functions.php:1022 includes/cars_functions.php:1023
+msgid "Sort by "
+msgstr ""
+
+#: includes/cars_functions.php:1020
+msgid "Default"
+msgstr ""
+
+#: includes/cars_functions.php:1022
+msgid "Price"
+msgstr ""
+
+#: includes/cars_functions.php:1023
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:78
+msgid "Date"
+msgstr ""
+
+#: includes/cars_functions.php:1418
+msgid "Vehicles Matching"
+msgstr ""
+
+#: includes/cars_functions.php:1515
+msgid "Reset"
+msgstr ""
+
+#: includes/cars_functions.php:1689
+msgid "Submit"
+msgstr ""
+
+#: includes/cars_functions.php:1690
+msgid "Reset All Filters"
+msgstr ""
+
+#: includes/cars_functions.php:1853 template-parts/cars/pagination.php:21
+msgid "&larr; Prev"
+msgstr ""
+
+#: includes/cars_functions.php:1854 template-parts/cars/pagination.php:22
+msgid "Next &rarr;"
+msgstr ""
+
+#: includes/cars_functions.php:1931 includes/cars_functions.php:1985
+#: includes/cars_functions.php:1994
+msgid "No Results"
+msgstr ""
+
+#: includes/comments.php:11
+msgid "Pingback:"
+msgstr ""
+
+#: includes/comments.php:11
+msgid "(Edit)"
+msgstr ""
+
+#: includes/comments.php:30
+msgid "Post author"
+msgstr ""
+
+#: includes/comments.php:35
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/comments.php:40
+msgid "Reply"
+msgstr ""
+
+#: includes/comments.php:45
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/comments.php:50 template-parts/entry_meta.php:70
+#: template-parts/search/entry_meta.php:64
+msgid "Edit"
+msgstr ""
+
+#: includes/sample-data.php:5
+msgid ""
+"You can import pre-defined sample data, as shown on our demo site, from here."
+msgstr ""
+
+#: includes/sample-data.php:14
+msgid ""
+"<strong style=\"color:#000\">Note</strong>: All pre-defined sample pages are "
+"configured using existing data. So, some of the shortcodes will not work if "
+"relative data is missing. For example, if testimonials data is not imported/"
+"added, testimonials shortcode will not work. So, please ensure all required "
+"data is imported/added successfully."
+msgstr ""
+
+#: includes/scripts_and_styles.php:13 includes/scripts_and_styles.php:19
+#: includes/scripts_and_styles.php:25 includes/scripts_and_styles.php:32
+#: includes/scripts_and_styles.php:36
+msgid "on"
+msgstr ""
+
+#: includes/sidebars.php:17
+msgid "Default Sidebar"
+msgstr ""
+
+#: includes/sidebars.php:19
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+
+#: includes/sidebars.php:26
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/sidebars.php:28
+msgid ""
+"Widgets in this area will be shown on all posts and pages in left sidebar."
+msgstr ""
+
+#: includes/sidebars.php:37
+msgid "Cars Listing Sidebar"
+msgstr ""
+
+#: includes/sidebars.php:39
+msgid "Add widgets here to appear on cars list page."
+msgstr ""
+
+#: includes/sidebars.php:46
+msgid "Car Detail Sidebar"
+msgstr ""
+
+#: includes/sidebars.php:48
+msgid "Add widgets here to appear on car details page."
+msgstr ""
+
+#: includes/sidebars.php:84
+msgid "Footer"
+msgstr ""
+
+#: includes/sidebars.php:86
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: includes/sidebars.php:98
+msgid "Footer Bottom"
+msgstr ""
+
+#: includes/sidebars.php:100
+msgid "Add widgets here to appear in your bottom footer."
+msgstr ""
+
+#: includes/template_tags.php:22
+msgid "Previous Post"
+msgstr ""
+
+#: includes/template_tags.php:50
+msgid "Next Post"
+msgstr ""
+
+#: includes/template_tags.php:101
+#, php-format
+msgid ""
+"Copyright &copy; <span class=\"copy_year\">%1$s</span>, <a href=\"%2$s\" "
+"title=\"%3$s\">%4$s</a> All Rights Reserved."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:393
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:915
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2639
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3695
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:394
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:395
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3060
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:610
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:611
+msgid "Update Required"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1022
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1025
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1025
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1209
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3056
+msgid "and"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2379
+msgid "Required"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2382
+msgid "Recommended"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2398
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2401
+msgid "External Source"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2404
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2421
+msgid "Not Installed"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2425
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2427
+msgid "Active"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2433
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2436
+msgid "Requires Update"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2439
+msgid "Update recommended"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2448
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2494
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2498
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2502
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2506
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2588
+msgid "unknown"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2596
+msgid "Installed version:"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2604
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2616
+msgid "Available version:"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2639
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2653
+msgid "Plugin"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2654
+msgid "Source"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2655
+msgid "Type"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2659
+msgid "Version"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2660
+msgid "Status"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2709
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2714
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2720
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2792
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2825
+msgid "Install"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2831
+msgid "Update"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2834
+msgid "Activate"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2865
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2867
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2908
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2910
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3016
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3042
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3266
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3606
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3611
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3617
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3619
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3620
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3622
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3625
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3627
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3628
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3630
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3635
+msgid "Show Details"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3635
+msgid "Hide Details"
+msgstr ""
+
+#: includes/theme_support.php:43
+msgid "Primary menu"
+msgstr ""
+
+#: includes/theme_support.php:44
+msgid "Footer menu"
+msgstr ""
+
+#: includes/welcome-content.php:1
+msgid "Congratulations! Theme activated successfully."
+msgstr ""
+
+#: includes/welcome-content.php:2
+msgid ""
+"<strong>Car Dealer</strong> is an elegant, clean, beautiful and best "
+"responsive WordPress theme."
+msgstr ""
+
+#: includes/welcome-content.php:4
+msgid ""
+"<strong>Car Dealer</strong> contains many usefull features and "
+"functionalities. And, it requires some plugins to be pre-installed to enable "
+"all inbuilt features and functionalities."
+msgstr ""
+
+#: includes/welcome.php:28 includes/welcome.php:40
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: includes/welcome.php:29
+msgid "cardealer"
+msgstr ""
+
+#: includes/welcome.php:44
+msgid ""
+"Please ensure all plugin are installed and activated. Click below to proceed."
+msgstr ""
+
+#: includes/welcome.php:55
+msgid "Proceed"
+msgstr ""
+
+#: includes/welcome.php:68
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: search.php:39
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:43
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: sidebar-left.php:7
+#, php-format
+msgid ""
+"No widgets added in left sidebar.<br>Click <a href=\"%s\">here</a> to add "
+"widgets."
+msgstr ""
+
+#: sidebar-left.php:20 sidebar.php:20
+msgid "No widgets founds."
+msgstr ""
+
+#: sidebar.php:7
+#, php-format
+msgid ""
+"No widgets added in default sidebar.<br>Click <a href=\"%s\">here</a> to add "
+"widgets."
+msgstr ""
+
+#: single-teams.php:78
+msgid "Powerful Skills"
+msgstr ""
+
+#: single-teams.php:117
+msgid "Areas of Expertise"
+msgstr ""
+
+#: template-parts/blog-extra/author-info.php:11
+msgid "Posted by:"
+msgstr ""
+
+#: template-parts/blog-extra/author-info.php:11
+#: template-parts/entry_meta.php:35 template-parts/search/entry_meta.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: template-parts/blog-extra/author-info.php:53
+msgid "Follow on"
+msgstr ""
+
+#: template-parts/blog-extra/related-posts.php:28
+msgid "Related Posts"
+msgstr ""
+
+#: template-parts/blog/classic/content-audio.php:33
+#: template-parts/blog/classic/content-gallery.php:82
+#: template-parts/blog/classic/content-image.php:34
+#: template-parts/blog/classic/content-quote.php:53
+#: template-parts/blog/classic/content-video.php:137
+#: template-parts/blog/classic/content.php:27
+#: template-parts/blog/masonry/content-audio.php:33
+#: template-parts/blog/masonry/content-gallery.php:82
+#: template-parts/blog/masonry/content-image.php:34
+#: template-parts/blog/masonry/content-quote.php:53
+#: template-parts/blog/masonry/content-video.php:137
+#: template-parts/content-page.php:8 template-parts/search/content.php:14
+msgid "Pages"
+msgstr ""
+
+#: template-parts/cars/content-single-cars.php:43
+msgid "Vehicle video"
+msgstr ""
+
+#: template-parts/cars/content-single-cars.php:47
+msgid "Add to compare"
+msgstr ""
+
+#: template-parts/cars/single-car/car-summary.php:3
+msgid "DESCRIPTION"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/email_to_friend.php:8
+#: template-parts/cars/single-car/forms/email_to_friend.php:16
+msgid "Email to a Friend"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/email_to_friend.php:37
+msgid "Friend Email"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/email_to_friend.php:41
+msgid "Message"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/email_to_friend.php:48
+#: template-parts/cars/single-car/forms/make_an_offer.php:56
+msgid "Send"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:8
+#: template-parts/cars/single-car/forms/financial_form.php:16
+msgid "Financial Form"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:33
+#: template-parts/cars/single-car/forms/financial_form.php:370
+#: template-parts/cars/single-car/forms/make_an_offer.php:29
+#: template-parts/cars/single-car/forms/request_info.php:29
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:32
+msgid "First Name"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:40
+#: template-parts/cars/single-car/forms/financial_form.php:377
+msgid "Middle Initial"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:47
+#: template-parts/cars/single-car/forms/financial_form.php:384
+#: template-parts/cars/single-car/forms/make_an_offer.php:33
+#: template-parts/cars/single-car/forms/request_info.php:33
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:36
+msgid "Last Name"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:54
+#: template-parts/cars/single-car/forms/financial_form.php:396
+msgid "Street Address"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:61
+#: template-parts/cars/single-car/forms/financial_form.php:403
+msgid "City"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:68
+#: template-parts/cars/single-car/forms/financial_form.php:410
+#: template-parts/cars/single-car/forms/request_info.php:58
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:52
+msgid "State"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:71
+#: template-parts/cars/single-car/forms/financial_form.php:413
+msgid "Select One:"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:72
+#: template-parts/cars/single-car/forms/financial_form.php:414
+msgid "Alabama"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:73
+#: template-parts/cars/single-car/forms/financial_form.php:415
+msgid "Alaska"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:74
+#: template-parts/cars/single-car/forms/financial_form.php:416
+msgid "Arizona"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:75
+#: template-parts/cars/single-car/forms/financial_form.php:417
+msgid "Arkansas"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:76
+#: template-parts/cars/single-car/forms/financial_form.php:418
+msgid "California"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:77
+#: template-parts/cars/single-car/forms/financial_form.php:419
+msgid "Colorado"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:78
+#: template-parts/cars/single-car/forms/financial_form.php:420
+msgid "Connecticut"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:79
+#: template-parts/cars/single-car/forms/financial_form.php:421
+msgid "Delaware"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:80
+#: template-parts/cars/single-car/forms/financial_form.php:422
+msgid "District of Columbia"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:81
+#: template-parts/cars/single-car/forms/financial_form.php:423
+msgid "Florida"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:82
+#: template-parts/cars/single-car/forms/financial_form.php:424
+msgid "Georgia"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:83
+#: template-parts/cars/single-car/forms/financial_form.php:425
+msgid "Hawaii"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:84
+#: template-parts/cars/single-car/forms/financial_form.php:426
+msgid "Idaho"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:85
+#: template-parts/cars/single-car/forms/financial_form.php:427
+msgid "Lllinois"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:86
+#: template-parts/cars/single-car/forms/financial_form.php:428
+msgid "Indiana"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:87
+#: template-parts/cars/single-car/forms/financial_form.php:429
+msgid "Iowa"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:88
+#: template-parts/cars/single-car/forms/financial_form.php:430
+msgid "Kansas"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:89
+#: template-parts/cars/single-car/forms/financial_form.php:431
+msgid "Kentucky"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:90
+#: template-parts/cars/single-car/forms/financial_form.php:432
+msgid "Louisiana"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:91
+#: template-parts/cars/single-car/forms/financial_form.php:433
+msgid "Maine"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:92
+#: template-parts/cars/single-car/forms/financial_form.php:434
+msgid "Maryland"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:93
+#: template-parts/cars/single-car/forms/financial_form.php:435
+msgid "Massachusetts"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:94
+#: template-parts/cars/single-car/forms/financial_form.php:436
+msgid "Michigan"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:95
+#: template-parts/cars/single-car/forms/financial_form.php:437
+msgid "Minnesota"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:96
+#: template-parts/cars/single-car/forms/financial_form.php:438
+msgid "Mississippi"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:97
+#: template-parts/cars/single-car/forms/financial_form.php:439
+msgid "Missouri"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:98
+#: template-parts/cars/single-car/forms/financial_form.php:440
+msgid "Montana"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:99
+#: template-parts/cars/single-car/forms/financial_form.php:441
+msgid "Nebraska"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:100
+#: template-parts/cars/single-car/forms/financial_form.php:442
+msgid "Nevada"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:101
+#: template-parts/cars/single-car/forms/financial_form.php:443
+msgid "New Hampshire"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:102
+#: template-parts/cars/single-car/forms/financial_form.php:444
+msgid "New Jersey"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:103
+#: template-parts/cars/single-car/forms/financial_form.php:445
+msgid "New Mexico"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:104
+#: template-parts/cars/single-car/forms/financial_form.php:446
+msgid "New York"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:105
+#: template-parts/cars/single-car/forms/financial_form.php:447
+msgid "North Carolina"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:106
+#: template-parts/cars/single-car/forms/financial_form.php:448
+msgid "North Dakota"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:107
+#: template-parts/cars/single-car/forms/financial_form.php:449
+msgid "Ohio"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:108
+#: template-parts/cars/single-car/forms/financial_form.php:450
+msgid "Oklahoma"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:109
+#: template-parts/cars/single-car/forms/financial_form.php:451
+msgid "Oregon"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:110
+#: template-parts/cars/single-car/forms/financial_form.php:452
+msgid "Pennsylvania"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:111
+#: template-parts/cars/single-car/forms/financial_form.php:453
+msgid "Rhode Island"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:112
+#: template-parts/cars/single-car/forms/financial_form.php:454
+msgid "South Carolina"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:113
+#: template-parts/cars/single-car/forms/financial_form.php:455
+msgid "South Dakota"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:114
+#: template-parts/cars/single-car/forms/financial_form.php:456
+msgid "Tennessee"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:115
+#: template-parts/cars/single-car/forms/financial_form.php:457
+msgid "Texas"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:116
+#: template-parts/cars/single-car/forms/financial_form.php:458
+msgid "Utah"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:117
+#: template-parts/cars/single-car/forms/financial_form.php:459
+msgid "Vermont"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:118
+#: template-parts/cars/single-car/forms/financial_form.php:460
+msgid "Virginia"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:119
+#: template-parts/cars/single-car/forms/financial_form.php:461
+msgid "Washington"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:120
+#: template-parts/cars/single-car/forms/financial_form.php:462
+msgid "West Virginia"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:121
+#: template-parts/cars/single-car/forms/financial_form.php:463
+msgid "Wisconsin"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:122
+#: template-parts/cars/single-car/forms/financial_form.php:464
+msgid "Wyoming"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:130
+#: template-parts/cars/single-car/forms/financial_form.php:472
+#: template-parts/cars/single-car/forms/request_info.php:62
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:56
+msgid "Zip"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:137
+#: template-parts/cars/single-car/forms/financial_form.php:478
+msgid "Preferred Email Address"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:144
+#: template-parts/cars/single-car/forms/financial_form.php:485
+msgid "Daytime Phone Number"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:151
+#: template-parts/cars/single-car/forms/financial_form.php:492
+msgid "Mobile Number"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:167
+#: template-parts/cars/single-car/forms/financial_form.php:503
+msgid "Date of Birth"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:172
+#: template-parts/cars/single-car/forms/financial_form.php:508
+msgid "Month"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:182
+#: template-parts/cars/single-car/forms/financial_form.php:518
+msgid "Day"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:192
+#: template-parts/cars/single-car/forms/financial_form.php:528
+msgid "Year"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:205
+#: template-parts/cars/single-car/forms/financial_form.php:541
+msgid "Social Security Number (SSN)"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:212
+#: template-parts/cars/single-car/forms/financial_form.php:548
+msgid "Employer Name"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:219
+#: template-parts/cars/single-car/forms/financial_form.php:555
+msgid "Employer Phone"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:226
+#: template-parts/cars/single-car/forms/financial_form.php:562
+msgid "Job Title"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:238
+#: template-parts/cars/single-car/forms/financial_form.php:574
+msgid "Living Arrangements"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:241
+#: template-parts/cars/single-car/forms/financial_form.php:577
+msgid "Select One"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:242
+#: template-parts/cars/single-car/forms/financial_form.php:578
+msgid "Rent"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:243
+#: template-parts/cars/single-car/forms/financial_form.php:579
+msgid "Own"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:244
+#: template-parts/cars/single-car/forms/financial_form.php:580
+msgid "Live With Parents"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:252
+#: template-parts/cars/single-car/forms/financial_form.php:588
+msgid "Monthly Rent/Mortgage Payment"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:259
+#: template-parts/cars/single-car/forms/financial_form.php:595
+msgid "Length of Time at Current Address"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:264
+#: template-parts/cars/single-car/forms/financial_form.php:293
+#: template-parts/cars/single-car/forms/financial_form.php:600
+#: template-parts/cars/single-car/forms/financial_form.php:629
+msgid "Year(s)"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:265
+#: template-parts/cars/single-car/forms/financial_form.php:294
+#: template-parts/cars/single-car/forms/financial_form.php:601
+#: template-parts/cars/single-car/forms/financial_form.php:630
+msgid "1 Year"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:267
+#: template-parts/cars/single-car/forms/financial_form.php:296
+#: template-parts/cars/single-car/forms/financial_form.php:603
+#: template-parts/cars/single-car/forms/financial_form.php:632
+msgid " Years"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:275
+#: template-parts/cars/single-car/forms/financial_form.php:304
+#: template-parts/cars/single-car/forms/financial_form.php:611
+#: template-parts/cars/single-car/forms/financial_form.php:640
+msgid "Month(s)"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:276
+#: template-parts/cars/single-car/forms/financial_form.php:305
+#: template-parts/cars/single-car/forms/financial_form.php:612
+#: template-parts/cars/single-car/forms/financial_form.php:641
+msgid "1 Month"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:278
+#: template-parts/cars/single-car/forms/financial_form.php:307
+#: template-parts/cars/single-car/forms/financial_form.php:614
+#: template-parts/cars/single-car/forms/financial_form.php:643
+msgid " Months"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:288
+#: template-parts/cars/single-car/forms/financial_form.php:624
+msgid "Length of Employment"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:318
+#: template-parts/cars/single-car/forms/financial_form.php:654
+msgid "Annual Income"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:325
+msgid "Joint Application"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:343
+msgid "Applicant Additional Income Information"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:344
+#: template-parts/cars/single-car/forms/financial_form.php:664
+msgid ""
+"Complete \"Other Income\" and \"Source of Other Income\" only if you want "
+"this income considered for repayment. Enter monthly amount. Alimony, child "
+"support or separate maintenance income need not be revealed if you do not "
+"wish to have it considered as a basis for repaying this obligation."
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:350
+#: template-parts/cars/single-car/forms/financial_form.php:670
+msgid "Other Income Amount (Monthly)"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:354
+#: template-parts/cars/single-car/forms/financial_form.php:675
+msgid "Other Income (Source)"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:361
+#: template-parts/cars/single-car/forms/financial_form.php:682
+msgid ""
+"Please include any additional information or options that you would like :"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:390
+msgid "Relationship to Applicant"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:663
+msgid "Joint Applicant Additional Income Information"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:691
+msgid ""
+"By clicking on \"Get Approved\", I acknowledge and declare that I have read "
+"and agree with the Application Disclosure above. I certify that I have "
+"provided complete and true information in this application."
+msgstr ""
+
+#: template-parts/cars/single-car/forms/financial_form.php:702
+msgid "Send your message"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/make_an_offer.php:8
+msgid "Make an Offer"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/make_an_offer.php:16
+msgid "Make An Offer"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/make_an_offer.php:41
+msgid "Home Phone"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/make_an_offer.php:49
+msgid "Request Price"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/pdf_brochure.php:19
+msgid "PDF Brochure"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/print_form.php:10
+msgid "Print"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/request_info.php:8
+#: template-parts/cars/single-car/forms/request_info.php:16
+msgid "Request More Info"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/request_info.php:37
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:60
+msgid "Preferred Contact"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/request_info.php:42
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:65
+msgid "Phone"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/request_info.php:50
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:44
+msgid "Mobile"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/request_info.php:54
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:48
+msgid "Address"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/request_info.php:69
+msgid "Request a service"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:11
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:19
+msgid "Schedule Test Drive"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:69
+msgid "Test Drive ?"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:71
+msgid "Yes"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:74
+msgid "No"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:82
+msgid "Time"
+msgstr ""
+
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:89
+msgid "Request Test Drive"
+msgstr ""
+
+#: template-parts/cars/single-car/related.php:47
+msgid "Related Vehicle"
+msgstr ""
+
+#: template-parts/cars/single-car/share.php:22
+msgid "Share :"
+msgstr ""
+
+#: template-parts/cars/single-car/tabs/tabs.php:8
+msgid "Vehicle Overview"
+msgstr ""
+
+#: template-parts/cars/single-car/tabs/tabs.php:12
+msgid "Features & Options"
+msgstr ""
+
+#: template-parts/cars/single-car/tabs/tabs.php:16
+msgid "Technical Specifications"
+msgstr ""
+
+#: template-parts/cars/single-car/tabs/tabs.php:20
+msgid "General Information"
+msgstr ""
+
+#: template-parts/cars/single-car/tabs/tabs.php:24
+msgid "Vehicle Location"
+msgstr ""
+
+#: template-parts/content-archive_header.php:22
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: template-parts/content-intro.php:89
+msgid "Car Details"
+msgstr ""
+
+#: template-parts/content-intro.php:101
+msgid "Blog"
+msgstr ""
+
+#: template-parts/content-intro.php:120
+msgid "Daily Archives"
+msgstr ""
+
+#: template-parts/content-intro.php:121
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:123
+msgid "Monthly Archives"
+msgstr ""
+
+#: template-parts/content-intro.php:124
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:124
+msgid "F Y"
+msgstr ""
+
+#: template-parts/content-intro.php:126
+msgid "Yearly Archives"
+msgstr ""
+
+#: template-parts/content-intro.php:127
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:127
+msgid "Y"
+msgstr ""
+
+#: template-parts/content-intro.php:129
+msgid "Category Archives"
+msgstr ""
+
+#: template-parts/content-intro.php:130
+#, php-format
+msgid "Category Name: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:132
+msgid "Tag Archives"
+msgstr ""
+
+#: template-parts/content-intro.php:133
+#, php-format
+msgid "Tag Name: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:135
+msgid "Author Archives"
+msgstr ""
+
+#: template-parts/content-intro.php:136
+#, php-format
+msgid "Author Name: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:138
+msgid "Archives"
+msgstr ""
+
+#: template-parts/content-intro.php:161
+msgid "404 error"
+msgstr ""
+
+#: template-parts/content-page.php:4
+#: template-parts/promocode/content-promocode.php:4
+#, php-format
+msgid "Continue reading <span class=\"screen-reader-text\">\"%s\"</span>"
+msgstr ""
+
+#: template-parts/entry_footer.php:19
+msgid "Tags"
+msgstr ""
+
+#: template-parts/entry_footer.php:25
+msgid "Read More"
+msgstr ""
+
+#: template-parts/entry_meta.php:41 template-parts/search/entry_meta.php:38
+msgid "No comments"
+msgstr ""
+
+#: template-parts/entry_meta.php:41 template-parts/search/entry_meta.php:38
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/entry_meta.php:41 template-parts/search/entry_meta.php:38
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:23
+msgid "Coming Soon"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:24
+msgid ""
+"We are currently working on a website and won't take long. Don't forget to "
+"check out our Social updates."
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:29
+msgid "Site is Under Maintenance"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:30
+msgid "This Site is Currently Under Maintenance. We will be back shortly"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:85
+msgid "comingsoon"
+msgstr ""
+
+#: template-parts/team/team-layout_1.php:6
+#: template-parts/team/team-layout_2.php:6
+msgid "List of people who matter in our Company"
+msgstr ""
+
+#: template-parts/team/team-layout_1.php:7
+#: template-parts/team/team-layout_2.php:7
+msgid "Our team"
+msgstr ""
+
+#: templates/faq.php:70
+msgid "Pages:"
+msgstr ""
+
+#: woocommerce/single-product/related.php:58
+msgid "Related Products"
+msgstr ""

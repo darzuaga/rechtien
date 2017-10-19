@@ -1,0 +1,705 @@
+/*
+Theme Name: carDealer
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+/*DEfault pages***************************/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.entry-title i,
+.alignleft,
+.comments-1 .comments-photo {
+	float: right;
+}
+
+.pull-left {
+	float: right !important;
+}
+
+.pull-right,
+.tags-2.pull-left,
+.post .pgs_btn.pgs_btn_style_1.pgs_btn_md {
+	float: left !important;
+}
+
+.port-navigation-right .port-photo {
+	text-align: left;
+}
+
+.recent-post-info {
+	text-align: right;
+}
+
+.entry-title i,
+.entry-title i,
+.widget-archives li i,
+dl dd,
+.alignleft,
+.comments-1 .comments-photo,
+.widget_recent_entries .recent-post-image img {
+	margin-right: 0;
+}
+
+.port-post-social a {
+	margin-right: 8px;
+}
+
+.port-post-social a {
+	margin-left: 0;
+}
+
+.comments-1 .comments-photo {
+	margin-left: 2%;
+}
+
+.widget_recent_entries .recent-post-image img {
+	margin-left: 7px;
+}
+
+.contact-form .section-field.textarea textarea,
+.entry-content ul,
+.comments-area .comment ul {
+	padding-left: 0px;
+}
+
+.contact-form .section-field.textarea textarea {
+	padding-right: 45px;
+}
+
+.tags-2 {
+	padding-right: 62px;
+}
+
+.widget_categories ul li a {
+	padding: 0
+}
+
+.widget_archive a,
+.widget_categories li.cat-item a,
+.edit-link a {
+	display: inline-block;
+}
+
+.widget_categories.widget-5 li.cat-item a {
+	display: initial;
+	line-height: 30px;
+}
+
+.recent-post-info {
+	display: block;
+}
+
+.recent-post-image {
+	display: inline-block;
+	float: right;
+}
+
+.contact-form .section-field i {
+	left: inherit;
+}
+
+blockquote {
+	border-right: 5px solid #d6d6d6;
+	border-left: none;
+}
+
+.owl-carousel-13 .owl-nav .owl-next {
+	right: inherit;
+	left: 0;
+}
+
+.owl-carousel-13 .owl-nav .owl-prev {
+	right: inherit;
+	left: 30px;
+}
+
+.recent-post-info a {
+	width: auto;
+}
+
+/* Home 1 */
+.mega-menu .menu-links > li > a i.fa.fa-indicator {
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+.feature-mob .feature-mob-scroll {
+	left: inherit;
+	right: 78px;
+}
+
+.skills-1 .jqbar.vertical {
+	text-align: right;
+}
+
+.skills-1 .jqbar.vertical span.bar-text {
+	left: 0;
+	right: 32px;
+}
+
+.skills-1 .jqbar.vertical .bar-level-wrapper {
+	float: right;
+}
+
+.skills-1 .jqbar.vertical .bar-percent {
+	margin-left: 0;
+	margin-right: 28px;
+}
+
+.skills-1 .jqbar.vertical span.bar-label {
+	margin-left: 0;
+	margin-right: 30px;
+}
+
+.addresss-info i {
+	float: right;
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+.footer .recent-post-info a {
+	width: 178px;
+}
+
+.footer  ul {
+	padding-right: 0;
+}
+
+.tags ul li {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+.popup-contact-box {
+	left: 0;
+	right: 15px;
+}
+
+#back-to-top .top {
+	left: 15px;
+	right: inherit;
+}
+
+.mega-menu .drop-down-multilevel .drop-down-multilevel {
+	right: 100%;
+	left: inherit;
+}
+
+.mega-menu * {
+	text-align: right;
+}
+
+.mega-menu .drop-down-multilevel i.fa.fa-indicator {
+	float: left;
+	font-size: 1em;
+	padding-left: 0px;
+}
+
+.mega-menu .drop-down-multilevel i.fa {
+	float: right;
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.search.search-open i {
+	position: absolute;
+	left: 27px;
+	right: inherit;
+}
+
+/* Home 2 */
+.device-full-01::before {
+	left: 0;
+	right: -150%;
+}
+
+.feature_text_box.feature_text_box_style_2 .feature_icon {
+	float: right;
+}
+
+.feature_text_box.feature_text_box_style_2 .feature_info {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.feature_text_box.feature_text_box_style_3 .feature_icon {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+/* Home 3 */
+.pricing-list ul {
+	padding-right: 0;
+}
+
+.pgs_step_feature_style_1 .pgs_step_feature-title-left {
+	float: right;
+}
+
+.pgs_step_feature_style_1 .pgs_step_feature-title-left h1 {
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+/* Shortcodes */
+.pgs_btn.pgs_btn_style_1.pgs_btn_xl span,
+.pgs_btn.pgs_btn_style_1.pgs_btn_lg span,
+.pgs_btn.pgs_btn_style_1.pgs_btn_md span,
+.pgs_btn.pgs_btn_style_1.pgs_btn_sm span,
+.pgs_btn.pgs_btn_style_3.pgs_btn_xl span,
+.pgs_btn.pgs_btn_style_3.pgs_btn_lg span,
+.pgs_btn.pgs_btn_style_3.pgs_btn_md span,
+.pgs_btn.pgs_btn_style_3.pgs_btn_sm span,
+.pgs_btn.pgs_btn_style_2.pgs_btn_xl span,
+.pgs_btn.pgs_btn_style_2.pgs_btn_lg span,
+.pgs_btn.pgs_btn_style_2.pgs_btn_md span,
+.pgs_btn.pgs_btn_style_2.pgs_btn_sm span {
+	float: right;
+}
+
+/* Blog */
+.pagination > li {
+	float: right;
+}
+
+caption {
+	text-align: right;
+}
+
+@media (max-width:1200px) {
+
+	/*DEfault pages***************************/
+	.widget_nav_menu .menu-item .sub-menu {
+		padding-right: 10px;
+	}
+
+}
+
+.mega-menu .drop-down-multilevel .drop-down-multilevel.left-side {
+	right: -100%;
+	left: inherit;
+}
+
+/*savan new code*/
+
+/*Home*/
+
+/*Header*/
+
+/*Top bar*/
+.topbar-left li i {
+	padding-right: inherit;
+	padding-left: 5px;
+}
+
+.topbar-right .list-inline li:last-child,
+.topbar-right li:last-child i {
+	padding-right: inherit;
+	padding-left: 5px;
+}
+
+.topbar-right li i {
+	padding-right: inherit;
+	padding-left: 5px;
+}
+
+/*FEATURE CAR*/
+.car-item .car-list li i {
+	padding-right: inherit;
+	padding-left: 3px;
+}
+
+.car-item .price span.old-price {
+	padding-right: inherit;
+	padding-left: 5px;
+}
+
+/*Footer*/
+.social-full a i {
+	float: inherit;
+	float: left;
+}
+
+.widget .widgettitle:before {
+	left: inherit;
+	right: 0;
+}
+
+.address ul li i {
+	padding-right: inherit;
+	padding-left: 10px;
+}
+
+.usefull-link ul li a i {
+	padding-right: inherit;
+	padding-left: 10px;
+}
+
+.widget_recent_entries .recent-post-info i {
+	padding-right: inherit;
+	padding-left: 5px;
+}
+
+footer .footer-box .box-link {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.list-inline.text-right {
+	text-align: left;
+}
+
+/*Home 2*/
+.text-left .section-title,
+.section-title.text-left {
+	text-align: right;
+}
+
+.text-left .section-title .separator:before,
+.section-title.text-left .separator:before,
+.text-left .section-title .separator:after,
+.section-title.text-left .separator:after {
+	left: inherit;
+	margin-left: auto;
+	margin-right: 0;
+	right: 0;
+}
+
+/*counter*/
+.counter.icon.right .icon {
+	float: left;
+	padding-left: inherit;
+	padding-right: 30px;
+}
+
+.counter.icon.right .content {
+	float: left;
+	text-align: left;
+}
+
+.counter.icon .content {
+	text-align: right;
+}
+
+.counter.icon.left .icon {
+	padding-right: inherit;
+	padding-left: 20px;
+}
+
+/*OUR TESTIMONIAL*/
+.testimonial-2 .testimonial-content i {
+	padding-right: inherit;
+	padding-left: 20px;
+}
+
+.testimonial-2 .testimonial-info .testimonial-avatar {
+	padding-right: inherit;
+	padding-left: 20px;
+}
+
+/*Home 3*/
+.feature-box.left-align {
+	text-align: right;
+}
+
+.blog-2 .blog-image .date-box {
+	left: inherit;
+	right: 20px;
+}
+
+.blog-2 .blog-admin-main {
+	padding-left: inherit;
+	padding-right: 20px;
+}
+
+.share .blog-social {
+	right: inherit;
+	left: 0;
+}
+
+ul ul {
+	margin-left: inherit;
+	margin-right: 15px;
+}
+
+/*Home 4*/
+.custom-block-3 .content h2 {
+	padding-right: inherit;
+	padding-left: 20px;
+}
+
+.custom-block-3 .title h3:before {
+	left: inherit;
+	right: 0;
+}
+
+/*ABOUT CAR DEALER*/
+.feature-box.round-border .icon {
+	float: right;
+	margin-right: inherit;
+	margin-left: 20px;
+}
+
+.feature-box.round-border .content {
+	text-align: right;
+}
+
+/*Home 5*/
+.feature-box.right-align {
+	text-align: left;
+}
+
+.counter.left-separator .separator:after {
+	left: inherit;
+	float: right;
+	right: 5px;
+}
+
+.counter.left-separator .info {
+	margin-right: inherit;
+	margin-right: 30px;
+	text-align: right;
+}
+
+.counter.left-separator .info i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/*home 9*/
+.feature-box.left-icon {
+	text-align: right;
+}
+
+.feature-box.left-icon .icon {
+	padding-left: 20px;
+	padding-right: inherit;
+}
+
+.feature-box.left-icon .icon {
+	padding-left: 20px;
+	padding-right: inherit;
+}
+
+/*about*/
+
+/*timeline*/
+.timeline .timeline-heading h5:before {
+	left: inherit;
+	right: 0;
+}
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+	text-align: right;
+}
+
+.opening-hours h6:before {
+	left: inherit;
+	right: 0;
+}
+
+ul.list li > i {
+	margin-right: inherit;
+	margin-left: 8px;
+}
+
+/*FAQ*/
+
+/*sidebar*/
+.widget_categories ul li {
+	text-align: left;
+}
+
+.widget_categories ul li a {
+	float: right;
+}
+
+.widget_recent_entries .recent-post-image {
+	padding-left: 15px;
+	padding-right: inherit;
+}
+
+.widget_archive ul li {
+	text-align: left;
+}
+
+.widget_archive ul li i,
+.widget_archive ul li a {
+	float: right;
+}
+
+.inquiry .form-group .checkbox label,
+.inquiry .form-group .radio label {
+	margin-right: 20px;
+	margin-left: inherit;
+}
+
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox],
+.radio input[type=radio],
+.radio-inline input[type=radio] {
+	margin-right: -20px;
+}
+
+.widget ul li i {
+	margin-right: 0;
+	padding-right: 0;
+	margin-left: 10px;
+}
+
+.widget_categories .widget-menu ul li {
+	text-align: right;
+}
+
+.widget_nav_menu .menu-item .sub-menu {
+	padding-left: 0;
+}
+
+.widget_tag_cloud ul li a {
+	margin-left: 8px;
+}
+
+/*typography*/
+.title-underline:before {
+	left: inherit;
+	right: 0;
+}
+
+/*blog*/
+.entry-meta ul li i,
+.entry-meta i {
+	padding-right: inherit;
+	padding-left: 3px;
+}
+
+.entry-meta ul li,
+.entry-meta a {
+	padding-right: inherit;
+	padding-left: 10px;
+}
+
+/*2015-honda-odyssey*/
+.details-nav ul li a i {
+	padding-right: inherit;
+	padding-left: 10px;
+}
+
+.car-detail-post-option > ul li a i {
+	margin-left: 5px;
+	margin-right: inherit;
+}
+
+.car-detail-post-option .details-social.share h5 {
+	margin-right: inherit;
+	margin-left: 15px;
+}
+
+.car-details-sidebar h5:before {
+	left: inherit;
+	right: 0;
+}
+
+ul.list-col-3 li {
+	float: right;
+}
+
+/*2015-honda-civic-coupe*/
+ul.list-col-2 li i,
+ul.list-col-3 li i,
+ul.list-col-4 li i {
+	margin-right: inherit;
+	margin-left: 5px;
+}
+
+.bbp-forum-info {
+	padding-left: inherit;
+	padding-right: 25px;
+}
+
+#bbpress-forums .bbp-forums-list {
+	border-right: none;
+}
+
+/*post-style*/
+.blog-1 .blog-content a.link:before {
+	left: inherit;
+	right: 0;
+}
+
+/*feature-box*/
+.feature-box.round-icon.left {
+	text-align: right;
+}
+
+.feature-box.round-icon.left .icon {
+	padding-right: inherit;
+	padding-left: 20px;
+}
+
+.feature-box.round-icon.left h6:before {
+	left: inherit;
+	right: 0;
+}
+
+.feature-box.round-icon.right .icon {
+	float: left;
+	padding-left: inherit;
+	padding-right: 20px;
+}
+
+.feature-box.round-icon.right {
+	text-align: left;
+}
+
+.feature-box.round-icon.right h6:before {
+	right: inherit;
+	left: 0;
+}
+
+.feature-box.right-icon .icon {
+	float: left;
+	padding-left: inherit;
+	padding-right: 20px;
+}
+
+.feature-box.right-icon .content {
+	text-align: left;
+}
+
+/*back to top*/
+.car-top {
+	left: 30px;
+	right: inherit;
+}
+
+.car-top:before,
+.car-top.car-run:before {
+	left: 10px;
+}
+
+/*inner-intro*/
+.inner-intro .intro-title.title-left {
+	text-align: right;
+}
+
+/*404*/
+.search-form .button {
+	padding: 10px 20px;
+}
+
+.error-page .error-search {
+	padding: 0;
+}
